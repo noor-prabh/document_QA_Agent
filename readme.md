@@ -27,36 +27,23 @@ Run the following command to install required libraries:
 ```bash
 pip install -r requirements.txt
 Ensure your API key is stored securely in a .env file:
-
-env
-Copy
-Edit
 TOGETHER_API_KEY="your-api-key"
+
 2. Launch the Application
 Start the Streamlit interface using:
-
-bash
-Copy
-Edit
 streamlit run app.py
+
 3. Use the Document Q&A Interface
 Click Upload PDFs to upload one or more documents.
-
 Ask questions based on the uploaded content.
-
 Get accurate, AI-generated answers using optimized retrieval.
 
 4. Search ArXiv Academic Papers
 Enter a research topic or description.
-
 The system refines the query using AI.
-
 View and explore relevant academic papers.
 
 🧠 Project Structure
-bash
-Copy
-Edit
 /docqna-agent
 ├── app.py               # Streamlit-based UI
 ├── ingestion.py         # Multi-PDF ingestion and vector embedding
@@ -65,15 +52,14 @@ Edit
 ├── arxiv_lookup.py      # ArXiv search and query refinement
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project documentation
+
+
 📺 Demonstration
 A walkthrough video showcasing the full functionality of the Document Q&A Agent is available:
 👉 Demo Video Link (Insert your video link here)
 
 🏢 Enterprise-Grade Capabilities
 High-precision embeddings for context-aware responses
-
 Scalable multi-document processing
-
 Integration with scientific literature databases (ArXiv)
-
 API key security using .env environment variables
